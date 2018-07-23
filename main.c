@@ -109,7 +109,7 @@ if (sel == 4) sceKernelExitProcess(0);
 					break;
 }
 			} if (prs & SCE_CTRL_LTRIGGER) {
-if (vshSblAimgrIsCEX()) {
+if (vshSblAimgrIsDEX() == 0) {
                 taiLoadStartKernelModule("ux0:app/SKGPKG2CH/t", 0, NULL, 0);
                 plds = 4;
 sel = 1;
