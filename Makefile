@@ -19,15 +19,17 @@ all: $(TARGET).vpk
     -a sce_sys/icon0.png=sce_sys/icon0.png \
     -a sce_sys/livearea/contents/startup.png=sce_sys/livearea/contents/startup.png \
     -a sce_sys/livearea/contents/bg.png=sce_sys/livearea/contents/bg.png \
-    -a sce_sys/livearea/contents/template.xml=sce_sys/livearea/contents/template.xml \
+	-a sce_sys/livearea/contents/template.xml=sce_sys/livearea/contents/template.xml \
     -a pkg/2=2 \
 	-a pkg/0=0 \
 	-a pkg/3=3 \
 	-a pkg/1=1 \
     -a pkg/4=4 \
     -a pkg/sample_plugin.rco=sample_plugin.rco \
-    -a pkg/h=h \
-    -a pkg/t=t \$@
+    -a pkg/t=t \
+	-a sys/0=pkg/0 \
+	-a sys/1=pkg/1 \
+	-a sys/eboot.bin=pkg/l \$@
 
 eboot.bin: $(TARGET).velf
 	vita-make-fself -c $< $@
