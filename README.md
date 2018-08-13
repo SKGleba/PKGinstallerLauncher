@@ -1,17 +1,27 @@
 # PKGinstallerLauncher
 A custom launcher for Playstation Vita's Package Installer.
-![ref0](https://re-doing.com/wp-content/uploads/2017/10/pkginstaller001.jpg)
 
-.
-If the PKG gives a error (like leaked sdk theme pkgs), and you are on a retail console, you may try the following:
-1) Start the app.
-2) Press L Trigger
-3) Choose the desired pkgs location.
- - WARNING : Host0 is NOT working while in this mode.
+![ref0](https://github.com/SKGleba/PKGinstallerLauncher/raw/master/preview/vlcsnap-2018-08-13-09h00m50s992.png)
+![ref1](https://github.com/SKGleba/PKGinstallerLauncher/raw/master/preview/vlcsnap-2018-08-13-09h25m24s393.png)
+
+It allows you to set the custom launcher as a sys app
+
+![ref2](https://github.com/SKGleba/PKGinstallerLauncher/raw/master/preview/vlcsnap-2018-08-13-09h24m43s333.png)
+
+The launcher will execute a modified version of PKG installer.
+
+![ref3](https://github.com/SKGleba/PKGinstallerLauncher/raw/master/preview/vlcsnap-2018-08-13-09h32m55s686.png)
+
+The selected directory will be scanned for pkg files.
+
+![ref4](https://github.com/SKGleba/PKGinstallerLauncher/raw/master/preview/vlcsnap-2018-08-13-09h32m34s265.png)
+
+
+If the PKG errors out (like leaked sdk theme pkgs), and you are on a retail console, select the "Allow DEV PKGs" option.
  - It is strongly recommended to reboot after installing all pkgs.
-.
+
 # FAQ:
- - Q: Can I install retail full game pkgs?
+ - Q: Can I install full game pkgs?
    - A: No, its only for DRMFREE and SDK pkgs.
  - Q: Is it compatible with X.XX?
    - A: Yes.
