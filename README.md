@@ -25,7 +25,5 @@ If the PKG errors out (like leaked sdk theme pkgs), and you are on a retail cons
    - A: No, its only for DRMFREE and SDK pkgs.
  - Q: Is it compatible with X.XX?
    - A: Yes.
- - Q: You did a great job! How can i help/donate you?
-   - A: paypal.me/skgleba (thx! ^_^)
    
  - For any serious issue/help DM me on twitter (twitter.com/skgleba)
