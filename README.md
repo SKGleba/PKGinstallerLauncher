@@ -25,5 +25,7 @@ If the PKG errors out (like leaked sdk theme pkgs), and you are on a retail cons
    - A: No, its only for DRMFREE and SDK pkgs.
  - Q: Is it compatible with X.XX?
    - A: Yes.
+ - Q: I got a black screen after I selected the PKG location and I am using reF00D.
+   - A: PKGinstallerLauncher is known to not work when reF00D is enabled. Disable reF00D in your `config.txt`, reboot and try again. Or better, replace it with [0syscall6](https://github.com/SKGleba/0syscall6/releases).
    
  - For any serious issue/help DM me on twitter (twitter.com/skgleba)
